@@ -241,6 +241,7 @@ class ChatGLMTokenizer(PreTrainedTokenizer):
     @property
     def vocab_size(self):
         """ Returns vocab size """
+        print(self.__module__,'88888888888888888888'*10)
         return self.sp_tokenizer.num_tokens
 
     def get_vocab(self):
